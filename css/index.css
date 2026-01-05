@@ -396,13 +396,13 @@ body{
     color: white;
 }
 
-/* 🔴 LINK CLICK FIX */
 .contact-value a{
-    color: #38bdf8;
-    text-decoration: underline;
+    color: white;          /* 🔥 white color */
+    text-decoration: none; /* underline remove */
     cursor: pointer;
     pointer-events: auto;
 }
+
 
 footer {
     background-color: #020617; 
