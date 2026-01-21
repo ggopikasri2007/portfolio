@@ -1,4 +1,4 @@
-*{
+ *{
     margin:0px;
     ;
 }
@@ -65,20 +65,20 @@ body{
     margin-bottom: 50px;     
 }
 .name {
-    font-size: 90px;           /* BIG SIZE */
+    font-size: 90px;           
     color: white;
     letter-spacing: 8px;
     font-weight: 800;
 }
 
-/* letters */
+
 .name span {
     opacity: 0;
     display: inline-block;
     animation: reveal 3s linear infinite;
 }
 
-/* delay for each letter */
+
 .name span:nth-child(1) { animation-delay: 0s; }
 .name span:nth-child(2) { animation-delay: 0.3s; }
 .name span:nth-child(3) { animation-delay: 0.6s; }
@@ -117,37 +117,45 @@ body{
 
 
 .card-container{
-    height:50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 30px;
+   
 }
 .card {
-  background:#020617;
-  padding: 50px;
-  width: 400px;
-  height: 300px;
-  border-radius: 20px;
-  border:solid #FFD700 5px ;
-  text-align: center;
-  color: white;
-  font-size: 20px;
+   background: #020617;
+    padding: 40px;
+    width: 500px;          
+    border-radius: 20px;
+    border: solid #FFD700 5px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+
 }
-
-
 body {
     overflow-x: hidden;
 }
 
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#skills {
+    padding-top: 80px;
+}
 
-
-.box-wrapper {
+/* .box-wrapper {
     overflow: hidden;
     width: 100%;
     padding-bottom: 10px;
+} */
+.box-wrapper {
+    margin-top: 50px;
+    overflow: hidden;
 }
-
 
 .box-container {
     display: flex;
@@ -156,7 +164,9 @@ body {
     animation: scroll 18s linear infinite;
 }
 
-
+#projects {
+    padding-top: 80px;
+}
 .box-wrapper:hover .box-container {
     animation-play-state: paused;
 }
@@ -254,10 +264,15 @@ body {
     text-align: center;   
     color:#FFD700;
     font-size: 48px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
-
+.head-skills  {
+    text-align: center;   
+    color:#FFD700;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
 
 .contact-form-section{
     margin-top: 120px;
@@ -330,4 +345,5 @@ footer {
     border-radius: 8px;
     font-size: 14px;
     transition: background 0.3s ease, color 0.3s ease;
-}
+} 
+
